@@ -1,4 +1,5 @@
-import store from './store';
+import moduleA from './moduleA';
+import moduleB from './moduleB';
 import HelloWorld from './components/HelloWorld.vue';
 import HelloText from './components/HelloText.vue';
 import HelloTextText from './components/HelloTextText.vue';
@@ -17,7 +18,7 @@ export default {
     }
   },
   store: {
-    moduleA: store,
-    moduleB: store,
+    moduleA,
+    moduleB,
   },
 };
