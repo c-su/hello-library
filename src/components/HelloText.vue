@@ -1,9 +1,15 @@
 <template>
-  <h1>テスト</h1>
+  <h1>{{ editText }}</h1>
 </template>
 
 <script>
-export default {};
+import { mapGetters } from 'vuex';
+
+export default {
+  computed: {
+    ...mapGetters(['editText']),
+  },
+};
 </script>
 
 <style>

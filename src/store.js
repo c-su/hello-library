@@ -5,12 +5,11 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-
+    edit: 'get edit text',
   },
-  mutations: {
-
-  },
-  actions: {
-
+  mutations: {},
+  actions: {},
+  getters: {
+    editText: state => state.edit,
   },
 });
