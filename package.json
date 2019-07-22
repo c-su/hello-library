@@ -1,10 +1,11 @@
 {
-  "name": "hello-library",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@csu/hello-library",
+  "version": "0.0.1",
+  "private": false,
+  "main": "./dist/myLib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name hello-library ./src/index.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
@@ -36,5 +37,12 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
 }
