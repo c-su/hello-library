@@ -1,6 +1,6 @@
 {
   "name": "hello-library-vue-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "main": "./dist/hello-library.common.js",
   "scripts": {
