@@ -14,7 +14,8 @@ export default {
       Vue.component(name, c);
     }
   },
-  installStore() {
-    return store;
+  store: {
+    moduleA: store,
+    moduleB: store,
   },
 };

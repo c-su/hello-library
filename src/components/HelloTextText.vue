@@ -7,7 +7,7 @@ import { mapGetters } from 'vuex';
 
 export default {
   computed: {
-    ...mapGetters(['moduleA/editText']),
+    ...mapGetters(['moduleB/editText']),
   },
 };
 </script>
