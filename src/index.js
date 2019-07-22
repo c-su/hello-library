@@ -1,4 +1,3 @@
-import Vuex from 'vuex';
 import store from './store';
 import HelloWorld from './components/HelloWorld.vue';
 import HelloText from './components/HelloText.vue';
@@ -16,6 +15,6 @@ export default {
     }
   },
   installStore() {
-    return new Vuex.Store(store);
+    return store;
   },
 };
