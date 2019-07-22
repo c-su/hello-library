@@ -10,7 +10,7 @@ export default {
 
     // eslint-disable-next-line no-restricted-syntax
     for (const [name, c] of Object.entries(components)) {
-      Vue.components(name, c);
+      Vue.component(name, c);
     }
   },
 };
