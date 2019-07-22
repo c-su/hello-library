@@ -1,9 +1,4 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
-
-Vue.use(Vuex);
-
-export default new Vuex.Store({
+const store = {
   state: {
     edit: 'get edit text',
   },
@@ -12,4 +7,6 @@ export default new Vuex.Store({
   getters: {
     editText: state => state.edit,
   },
-});
+};
+
+export default store;
