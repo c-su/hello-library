@@ -5,7 +5,7 @@
   "main": "./dist/hello-library.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name HelloLibrary ./src/index.js",
+    "build": "vue-cli-service build --target lib --name hello-library ./src/index.js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
